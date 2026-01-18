@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">f4709778d00322105590fd9a5a77e754</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-18 13:27:13</sys_created_on>
+        <sys_id>de8ad20d83e6f21083bf9629feaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="TechwithAjey" source="x_1869195_techwith">4b09924983e6f21083bf9629feaad3ba</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-18 13:27:13</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

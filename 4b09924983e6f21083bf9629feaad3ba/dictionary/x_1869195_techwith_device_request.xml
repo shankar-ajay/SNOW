@@ -16,5 +16,6 @@
         <element attributes="encode_utf8=false" label="Requestor Name" mandatory="true" max_length="32" name="u_requestor_name" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Warranty Expiration" max_length="40" name="u_warranty_expiration" read_only="true" type="glide_date"/>
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" max_length="20" name="u_price" read_only="true" type="price"/>
+        <element attributes="omit_sys_original=true" label="Total Cost" max_length="20" name="total_cost" read_only="true" type="currency"/>
     </element>
 </database>

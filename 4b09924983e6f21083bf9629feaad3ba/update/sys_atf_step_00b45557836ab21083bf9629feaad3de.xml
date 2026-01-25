@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Validate that the answer match the following condition:
+Total Amount &gt;= 1100</description>
+        <display_name>Validate Variable Values (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>5</order>
+        <step_config display_value="Validate Variable Values (SP)">2c8882759f1303002528d4b4232e708a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-25 08:09:45</sys_created_on>
+        <sys_id>00b45557836ab21083bf9629feaad3de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Variable Values (SP)</sys_name>
+        <sys_package display_value="TechwithAjey" source="x_1869195_techwith">4b09924983e6f21083bf9629feaad3ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechwithAjey">4b09924983e6f21083bf9629feaad3ba</sys_scope>
+        <sys_update_name>sys_atf_step_00b45557836ab21083bf9629feaad3de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-25 08:09:45</sys_updated_on>
+        <table/>
+        <test display_value="Validate Order AI device catalog Item">f2328d5f83a6b21083bf9629feaad3c6</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=00b45557836ab21083bf9629feaad3de"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>00b45557836ab21083bf9629feaad3de</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-25 08:09:45</sys_created_on>
+        <sys_id>1005dd57836ab21083bf9629feaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-25 08:09:45</sys_updated_on>
+        <value>246211bd836eb61083bf9629feaad3a0</value>
+        <variable display_value="Item">9b5b4e759f1303002528d4b4232e7026</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>00b45557836ab21083bf9629feaad3de</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-25 08:09:45</sys_created_on>
+        <sys_id>5005dd57836ab21083bf9629feaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-25 08:09:45</sys_updated_on>
+        <value/>
+        <variable display_value="Multi-row Variable Set">f2fac9d673142300688e0d573cf6a7e0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>00b45557836ab21083bf9629feaad3de</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-25 08:09:45</sys_created_on>
+        <sys_id>5405dd57836ab21083bf9629feaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-25 08:09:45</sys_updated_on>
+        <value>IO:45f06a0e83e63a1083bf9629feaad34e&gt;=1100^EQ</value>
+        <variable display_value="Catalog Conditions">e0cc42b59f1303002528d4b4232e70f9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2c8882759f1303002528d4b4232e708a^id=00b45557836ab21083bf9629feaad3de"/>
+</record_update>

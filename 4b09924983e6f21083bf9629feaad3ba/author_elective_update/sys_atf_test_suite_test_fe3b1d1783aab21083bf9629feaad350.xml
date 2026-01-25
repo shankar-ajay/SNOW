@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="DELETE">
+        <abort_on_failure>false</abort_on_failure>
+        <order/>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-25 08:37:28</sys_created_on>
+        <sys_id>fe3b1d1783aab21083bf9629feaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f86b2e7287012300e0ef0cf888cb0bf3</sys_name>
+        <sys_package display_value="TechwithAjey" source="x_1869195_techwith">4b09924983e6f21083bf9629feaad3ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechwithAjey">4b09924983e6f21083bf9629feaad3ba</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_fe3b1d1783aab21083bf9629feaad350</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-25 08:37:28</sys_updated_on>
+        <test display_value="Submit a Order Guide (SP)">f86b2e7287012300e0ef0cf888cb0bf3</test>
+        <test_suite display_value="Demo Child">3d2b991783aab21083bf9629feaad322</test_suite>
+    </sys_atf_test_suite_test>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TechwithAjey">4b09924983e6f21083bf9629feaad3ba</application>
+        <file_path/>
+        <instance_id>f4182695ebd1261ccbbffceacad0cd28</instance_id>
+        <instance_name>dev341301</instance_name>
+        <name>sys_atf_test_suite_test_fe3b1d1783aab21083bf9629feaad350</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test"><sys_atf_test_suite_test action="INSERT_OR_UPDATE"><abort_on_failure>false</abort_on_failure><order/><sys_class_name>sys_atf_test_suite_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-25 08:37:28</sys_created_on><sys_id>fe3b1d1783aab21083bf9629feaad350</sys_id><sys_mod_count>0</sys_mod_count><sys_name>f86b2e7287012300e0ef0cf888cb0bf3</sys_name><sys_package display_value="TechwithAjey" source="x_1869195_techwith">4b09924983e6f21083bf9629feaad3ba</sys_package><sys_policy/><sys_scope display_value="TechwithAjey">4b09924983e6f21083bf9629feaad3ba</sys_scope><sys_update_name>sys_atf_test_suite_test_fe3b1d1783aab21083bf9629feaad350</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-25 08:37:28</sys_updated_on><test display_value="Submit a Order Guide (SP)">f86b2e7287012300e0ef0cf888cb0bf3</test><test_suite display_value="Demo Child">3d2b991783aab21083bf9629feaad322</test_suite></sys_atf_test_suite_test></record_update>]]></payload>
+        <payload_hash>-1824652485</payload_hash>
+        <record_name>f86b2e7287012300e0ef0cf888cb0bf3</record_name>
+        <reverted_from/>
+        <source>8b90ee81832af21083bf9629feaad3ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-25 08:37:28</sys_created_on>
+        <sys_id>5e5bdd1783aab21083bf9629feaad396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bf44d0b350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-25 08:37:28</sys_updated_on>
+        <type>Test Suite Test</type>
+        <update_guid>1e5bdd1784aab2102391c51a6f0a3295</update_guid>
+        <update_guid_history>1e5bdd1784aab2102391c51a6f0a3295:-1824652485</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-25 08:38:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test_suite_test">sys_atf_test_suite_test</sys_db_object>
+        <sys_id>2b9ed0fc7eca44609755e82b8d696100</sys_id>
+        <sys_metadata>fe3b1d1783aab21083bf9629feaad350</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f86b2e7287012300e0ef0cf888cb0bf3</sys_name>
+        <sys_package display_value="TechwithAjey" source="x_1869195_techwith">4b09924983e6f21083bf9629feaad3ba</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TechwithAjey">4b09924983e6f21083bf9629feaad3ba</sys_scope>
+        <sys_scope_delete display_value="">008bdf3372e64d92a2eb5fe5baf52b04</sys_scope_delete>
+        <sys_update_name>sys_atf_test_suite_test_fe3b1d1783aab21083bf9629feaad350</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_suite_test_fe3b1d1783aab21083bf9629feaad350">5e5bdd1783aab21083bf9629feaad396</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-25 08:38:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

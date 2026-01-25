@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1869195_techwith.GetAIDevicePrice</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>GetAIDevicePrice</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var GetAIDevicePrice = Class.create();
+GetAIDevicePrice.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    type: 'GetAIDevicePrice',
+    getPrice: function() {
+        var deviceId = this.getParameter('sysparm_device_id');
+
+
+        var gr = new GlideRecord('x_1869195_ai_device');
+        if (gr.get(deviceId)) {
+            return gr.u_price_2;
+        }
+        return '';
+    }
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-25 08:01:15</sys_created_on>
+        <sys_id>65b219df832ab21083bf9629feaad36f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>GetAIDevicePrice</sys_name>
+        <sys_package display_value="TechwithAjey" source="x_1869195_techwith">4b09924983e6f21083bf9629feaad3ba</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="TechwithAjey">4b09924983e6f21083bf9629feaad3ba</sys_scope>
+        <sys_update_name>sys_script_include_65b219df832ab21083bf9629feaad36f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-25 08:03:49</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TechwithAjey">4b09924983e6f21083bf9629feaad3ba</application>
+        <file_path/>
+        <instance_id>f4182695ebd1261ccbbffceacad0cd28</instance_id>
+        <instance_name>dev341301</instance_name>
+        <name>sys_script_include_65b219df832ab21083bf9629feaad36f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1869195_techwith.GetAIDevicePrice&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;GetAIDevicePrice&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var GetAIDevicePrice = Class.create();
+GetAIDevicePrice.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    type: 'GetAIDevicePrice',
+    getPrice: function() {
+        var deviceId = this.getParameter('sysparm_device_id');
+
+
+        var gr = new GlideRecord('x_1869195_ai_device');
+        if (gr.get(deviceId)) {
+            return gr.u_price_2;
+        }
+        return '';
+    }
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-25 08:01:15&lt;/sys_created_on&gt;&lt;sys_id&gt;65b219df832ab21083bf9629feaad36f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetAIDevicePrice&lt;/sys_name&gt;&lt;sys_package display_value="TechwithAjey" source="x_1869195_techwith"&gt;4b09924983e6f21083bf9629feaad3ba&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="TechwithAjey"&gt;4b09924983e6f21083bf9629feaad3ba&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_65b219df832ab21083bf9629feaad36f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-25 08:03:49&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2031637457</payload_hash>
+        <record_name>GetAIDevicePrice</record_name>
+        <reverted_from/>
+        <source>8b90ee81832af21083bf9629feaad3ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-25 08:03:49</sys_created_on>
+        <sys_id>15a3dd93836ab21083bf9629feaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bf42e3af80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-25 08:03:49</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>9da3dd93876ab2104a9b398ead3683c7</update_guid>
+        <update_guid_history>9da3dd93876ab2104a9b398ead3683c7:2031637457,58135553496ab210ab46731bc96b1dfd:2041255560</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-25 08:04:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>07ecabd63643476a8a6ed9c00416d7a4</sys_id>
+        <sys_metadata>65b219df832ab21083bf9629feaad36f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetAIDevicePrice</sys_name>
+        <sys_package display_value="TechwithAjey" source="x_1869195_techwith">4b09924983e6f21083bf9629feaad3ba</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="TechwithAjey">4b09924983e6f21083bf9629feaad3ba</sys_scope>
+        <sys_scope_delete display_value="">008bdf3372e64d92a2eb5fe5baf52b04</sys_scope_delete>
+        <sys_update_name>sys_script_include_65b219df832ab21083bf9629feaad36f</sys_update_name>
+        <sys_update_version display_value="sys_script_include_65b219df832ab21083bf9629feaad36f">15a3dd93836ab21083bf9629feaad3c9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-25 08:04:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

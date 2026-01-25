@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>Only Mapped Fields</enforce_mandatory_fields>
+        <name>Device transform</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>true</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+	if(source.u_quanity>2 && target.u_description==''){
+		target.u_description = 'It will be provided soon';
+	}
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_1869195_techwith_device_data</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-23 16:54:09</sys_created_on>
+        <sys_id>4d99747a83eafa1083bf9629feaad338</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Device transform</sys_name>
+        <sys_package display_value="TechwithAjey" source="x_1869195_techwith">4b09924983e6f21083bf9629feaad3ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechwithAjey">4b09924983e6f21083bf9629feaad3ba</sys_scope>
+        <sys_update_name>sys_transform_map_4d99747a83eafa1083bf9629feaad338</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 17:18:21</sys_updated_on>
+        <target_table>x_1869195_techwith_device_request</target_table>
+    </sys_transform_map>
+</record_update>

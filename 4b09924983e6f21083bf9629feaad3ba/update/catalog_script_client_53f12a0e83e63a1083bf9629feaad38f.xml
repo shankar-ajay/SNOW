@@ -39,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>53f12a0e83e63a1083bf9629feaad38f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Amount Calculation</sys_name>
         <sys_overrides/>
         <sys_package display_value="TechwithAjey" source="x_1869195_techwith">4b09924983e6f21083bf9629feaad3ba</sys_package>
@@ -47,10 +47,10 @@
         <sys_scope display_value="TechwithAjey">4b09924983e6f21083bf9629feaad3ba</sys_scope>
         <sys_update_name>catalog_script_client_53f12a0e83e63a1083bf9629feaad38f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-21 16:40:41</sys_updated_on>
+        <sys_updated_on>2026-01-25 08:20:11</sys_updated_on>
         <table/>
         <type>onChange</type>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <va_supported>true</va_supported>
         <variable_set/>
         <view/>
